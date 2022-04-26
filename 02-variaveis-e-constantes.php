@@ -37,13 +37,22 @@
     </p>
 
     <?php
-    // Constantes
+
+    // Constantes (uso de maiúsculas é uma recomendação)
     // Forma 1:
     define("MEU_NOME", "Tiago");
 
     // Forma 2:
     const ESCOLA = "Senac Penha";
+
+    // Obs.: precisa concatenar (ponto . )
+    echo "<p>".MEU_NOME."</p>";
+    echo "<p>".ESCOLA."</p>";
+
     ?>
+
+    <p> <?=MEU_NOME?> </p>
+    <p> <?=ESCOLA?> </p>
 
 </body>
 </html>
