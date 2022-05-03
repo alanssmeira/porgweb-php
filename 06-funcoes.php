@@ -69,8 +69,8 @@
     $salarioMinimo = 1212;
     $novoSalario = 255.47;
 
-                                    //parâmetro com valor padrão (default)
-    function formataNumero($valor, $casasDecimais){
+                                        //parâmetro com valor padrão (default)
+    function formataNumero(float $valor, $casasDecimais){
         // CONCATENAÇÃO
         return "R$ ".number_format($valor, $casasDecimais, ",", ".");
     }
