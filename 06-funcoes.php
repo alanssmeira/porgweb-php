@@ -68,9 +68,9 @@
     $desconto = 75.4789;
     $salarioMinimo = 1212;
     $novoSalario = 255.47;
-
+            // float, int e string são indução das variáveis e resultado
                                         //parâmetro com valor padrão (default)
-    function formataNumero(float $valor, int $casasDecimais){
+    function formataNumero(float $valor, int $casasDecimais):string{
         // CONCATENAÇÃO
         return "R$ ".number_format($valor, $casasDecimais, ",", ".");
     }
