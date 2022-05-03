@@ -90,8 +90,8 @@
     float -> números decimais
     int   -> inteiros
     string-> textos
-    */
-    function calculaMedia(float $nota1, float $nota2){
+    */                   // indução dos parâmetros    //induz o tipo do resultado
+    function calculaMedia(float $nota1, float $nota2):float{
         return ($nota1 + $nota2) / 2;
     }
     ?>
