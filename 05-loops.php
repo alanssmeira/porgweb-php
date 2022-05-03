@@ -62,14 +62,15 @@
 
     $k = 0;
 
-    for ($k = 0; $meses < 12; $k++) {
     ?>
+    <!--  Lista OL inicia e termina INDEPENDENTEMENTE DO PHP -->
+    <ol>
+        <?php for ($k = 0; $k < count($meses); $k++) { ?>
+            <!-- Itens lista dependem do PHP FOR -->
+            <li><?= $meses[$k] ?></li>
+        <?php } ?>
+    </ol>
 
-    
-
-    <?php
-    }
-    ?>
 
 
 </body>
